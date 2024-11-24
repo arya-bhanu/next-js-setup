@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "firebase": "^11.0.2",
     "gartic-next-fe": "file:",
     "jsonwebtoken": "^9.0.2",
     "next": "14.2.18",
     "next-auth": "^4.24.10",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "zustand": "^5.0.1"
   },
   "devDependencies": {
     "@types/jsonwebtoken": "^9.0.7",
