@@ -4,7 +4,6 @@ import { Session } from 'next-auth';
 import React from 'react';
 
 const ProtectedExample = (session: Session | null) => {
-	console.log(session?.user);
 	return (
 		<div>
 			ProtectedExample
